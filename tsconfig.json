@@ -1,0 +1,11 @@
+{
+  "compilerOptions": {
+    "esModuleInterop": true,
+    "strict": true,
+    "jsx": "react-jsx",
+    "jsxFactory": "React.createElement",
+    "jsxFragmentFactory": "Fragment",
+    "jsxImportSource": "hono/jsx",
+    "lib": [ "es2015", "dom" ]
+  }
+}
