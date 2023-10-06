@@ -8,6 +8,8 @@ RUN bun install
 
 COPY . .
 
+RUN bun test
+
 EXPOSE 4000
 
 CMD ["bun", "src/index.ts"]
